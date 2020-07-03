@@ -1,0 +1,201 @@
+body{
+    font-family:'Segoe UI';
+    background-color: #01012b;
+    color:white;
+    background-image: url("background.png");
+}
+
+.center p{
+    color: white;
+    font-family:'Segoe UI';
+    font-size: 300%;
+}
+
+.goesto{
+    color: #ff2a6d;
+}
+
+.center {
+text-align: center;
+}
+
+.left {
+text-align: left;
+}
+
+.right {
+text-align: right;
+}
+
+.logo-main{
+    width:200px;
+    margin-left:130px;
+    margin-top:55px;
+    opacity:0.3;
+    transition:all 0.5s;
+    /*float:right;*/
+}
+
+h3{
+    color: #ff2a6d;
+    font-weight: 500;
+}
+
+.main h1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-weight: normal;
+    text-align:center;
+}
+
+.deskrip{
+    color: #d1f7ff;
+}
+
+span{
+    color: #ff2a6d;
+}
+
+.outstand{
+    color: #d1f7ff;
+}
+
+.kedua{
+    margin-top:100px;
+}
+
+.fpmipa{
+    width: 300px;
+    margin-right:100px;
+    margin-top: 70px;
+    opacity:0.3;
+    transition:all 0.5s;
+    float:left;
+}
+
+.deskrip-2{
+    color: #d1f7ff;
+}
+
+.ketiga{
+    display:flex;
+    margin-top:100px;
+    text-align:right;
+}
+
+.deskrip-3{
+    color: #d1f7ff;
+    text-align:right;
+}
+
+.kemakom{
+    width:230px;
+    opacity:0.3;
+    transition:all 0.5s;
+    padding-bottom: 50px;
+    float:right;
+}
+
+.logo-main:hover{
+    opacity: 1;
+}
+
+.fpmipa:hover{
+    opacity: 1;
+}
+
+.kemakom:hover{
+    opacity: 1;
+}
+
+.main-tambahan h2{
+    margin-top: 50px;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.tombol{
+    padding:15px 40px;
+    background-color:#ff2a6d;
+    color:white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom:100px;
+    opacity:0.5;
+    transition:all 0.5s;
+}
+
+.tombol:hover{
+    opacity:1;
+}
+
+.bagian{
+    display:flex;
+}
+
+.pertama div{
+    text-align:left;
+    flex:auto;
+}
+
+.kedua div{
+    text-align:right;
+    flex:auto;
+}
+
+.ketiga div{
+    text-align:right;
+    flex:auto;
+}
+
+.img-hover:hover .titleKampus{
+    opacity: 1!important;
+    transition: all 0.5s;
+    top: 40%;
+    margin-top: auto;
+    z-index: 2;
+}
+
+.img-hover:hover .imgKampus{
+    opacity: 0.8
+}
+
+li{
+    list-style: none;
+}
+.footer{
+    background-color: #3d405b;
+    color: azure;
+    height: 120px;
+    padding: 40px;
+}
+
+.section-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.footer-list{
+    float: left;
+    margin: auto;
+    font-size: 18px;
+}
+
+.footer-list li{
+    float: left;
+    padding-bottom: 14px;
+    color:white;
+    padding-right: 20px;
+}
+
+.footer h2{
+    font-size: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.footer p{
+    padding-top: 28px;
+    font-size: 15px;
+    margin-top: 32px;
+}
